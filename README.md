@@ -31,3 +31,6 @@ To aid in visualizing the results in a lower-dimensional space, the t-Distribute
 Upon analysis, it was found that the SpectralClustering model provided the best fit for the dataset. This conclusion was drawn based on the model’s superior performance in terms of the Silhouette score and the visual inspection of the t-SNE plot.
 
 This study demonstrates the effectiveness of SpectralClustering in identifying meaningful patterns within the dataset. Future work may explore the application of this model to other datasets or the optimization of its parameters for improved performance.
+
+## Contact
+If you have any questions, feel free to open an issue or send me a message at ehsan.sepahsalari@gmail.com.
