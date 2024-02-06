@@ -22,3 +22,12 @@ The project uses clustering algorithms to segment customers into different group
 2. **Exploratory Data Analysis (EDA)**: EDA is performed to understand the data and find any interesting patterns.
 3. **Model Building**: Clustering algorithms are applied to the data.
 4. **Evaluation**: The performance of the model is evaluated.
+
+## Findings
+A variety of clustering models were applied to the dataset in this study. The performance of each model was evaluated using the Silhouette score, a metric that measures how similar an object is to its own cluster compared to other clusters.
+
+To aid in visualizing the results in a lower-dimensional space, the t-Distributed Stochastic Neighbor Embedding (t-SNE) method was employed for dimensionality reduction.
+
+Upon analysis, it was found that the SpectralClustering model provided the best fit for the dataset. This conclusion was drawn based on the model’s superior performance in terms of the Silhouette score and the visual inspection of the t-SNE plot.
+
+This study demonstrates the effectiveness of SpectralClustering in identifying meaningful patterns within the dataset. Future work may explore the application of this model to other datasets or the optimization of its parameters for improved performance.
